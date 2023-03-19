@@ -1,0 +1,13 @@
+#!/bin/bash
+
+## get latest
+git pull
+
+## adding out files that we wanna puch
+git add .
+
+## use $1 as a command line
+git commit -m "$1"
+
+## pushing our files to github
+git push -u origin main
